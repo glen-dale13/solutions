@@ -1,0 +1,108 @@
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #222;
+}
+
+/* Do not touch the div CSS block! */
+div {
+  width: 100px;
+  height: 100px;
+}
+
+
+/* Add your styles for each box below this line */
+
+#box01 {
+  background-color: rgba(28,104,167,1);
+}
+
+#box02 {
+  background-color: rgba(28,104,167,0.8);
+
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+  /*
+  Two options:
+
+    padding: 20px 20px 20px 20px;
+
+  or...
+
+    padding: 20px;
+
+  */
+}
+
+#box03 {
+  background-color: rgba(28,104,167,0.6);
+
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+  /*
+  Two options:
+
+    margin: 20px 20px 20px 20px;
+
+  or...
+
+    margin: 20px;
+
+  */
+}
+
+#box04 {
+  background-color: rgba(28,104,167,0.4);
+
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+  /*
+  Two options:
+
+    margin: 20px 20px 20px 20px;
+
+  or...
+
+    margin: 20px;
+
+  */
+
+  border-top: 2px dotted rgba(28,104,167,1);
+  border-right: 2px dotted rgba(28,104,167,1);
+  border-bottom: 2px dotted rgba(28,104,167,1);
+  border-left: 2px dotted rgba(28,104,167,1);
+
+  /*
+    Sorry, I am not writing out *all* the border properties. :)
+    It is just best to learn 'border' shorthand.
+
+    Another option:
+
+    border: 2px dotted rgba(28,104,167,1);
+  */
+
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+  /*
+  Two options:
+
+    padding: 20px 20px 20px 20px;
+
+  or...
+
+    padding: 20px;
+
+  */
+}
