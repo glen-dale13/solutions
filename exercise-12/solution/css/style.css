@@ -1,0 +1,63 @@
+/* style.css */
+
+body {
+  font: 16px/1.5 sans-serif;
+}
+
+section {
+  border: 1px solid #222;
+  margin-bottom: 20px;
+  width: 600px;
+  overflow: auto;
+}
+
+div {
+  background-color: rgb(242,87,30);
+  width: 200px;
+  height: 200px;
+}
+
+#box01 {
+  float: left;
+  margin-right: 10px;
+}
+
+#box02 {
+  float: right;
+}
+
+#box03 {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.clear-me {
+  clear: both;
+}
+
+/* Another option:
+
+  #box01,
+  #box03 {
+    float: left;
+    margin-right: 10px;
+  }
+
+  #box03 {
+    margin-bottom: 10px;
+  }
+
+  ... since box01 and box03 share the float, margin-right properties.
+  But we still need to add that margin-bottom to box03, so we create
+  a separate rule.
+
+*/
+
+/* 'Better Alignment' solution:
+
+  p {
+    margin-top: 0;
+  }
+
+*/
