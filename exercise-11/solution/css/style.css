@@ -1,0 +1,85 @@
+/* style.css */
+
+body {
+  font: 16px/1.5 sans-serif;
+}
+
+header {
+  margin-top: 60px;
+}
+
+nav {
+  background-color: rgb(219,81,73);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+article {
+  border: 2px solid #333;
+  min-height: 500px;
+  position: relative;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+}
+
+#relative em {
+  background-color: #ccc;
+  position: relative;
+  top: -20px;
+  left: 30px;
+}
+
+#red {
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+
+#yellow {
+  background-color: yellow;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+#green {
+  background-color: green;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#blue {
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/*
+  Another option:
+
+  #red,
+  #yellow,
+  #green,
+  #blue {
+    position: absolute;
+  }
+
+  ...then create selectors for each box with their unique,
+  respective settings.
+
+  Another option would be to apply 'position: absolute;' to the
+  'div' rule -- since each box is a div, and they all share the
+  same position.
+
+  Just another example of how there may be multiple solutions!
+
+*/
