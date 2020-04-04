@@ -1,0 +1,21 @@
+/* 02-three-columns.css */
+
+
+#wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-gap: 15px;
+}
+
+section {
+	padding: 10px;
+}
